@@ -17,7 +17,7 @@ This docsify plugin places giscus as the last child element of `<article class="
 
 ```html
 <!-- body -->
-<script src="https://unpkg.com/@mingchyuanko/docsify-plugin-giscus/dist/giscus.js"></script>
+<script src="https://unpkg.com/@mingchyuanko/docsify-plugin-giscus/dist/giscus.min.js"></script>
 ```
 
 ### Configure docsify-plugin-giscus
