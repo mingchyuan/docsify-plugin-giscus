@@ -1,6 +1,6 @@
 {
   "name": "@mingchyuanko/docsify-plugin-giscus",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "This docsify plugin places giscus as the last child element of article",
   "main": "giscus.js",
   "scripts": {
