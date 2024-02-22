@@ -6,8 +6,11 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "docsify",
+    "giscus"
+  ],
+  "author": "Ming-Chyuan Ko",
   "license": "MIT",
   "homepage": "https://github.com/mingchyuan/docsify-plugin-giscus",
   "repository": {
