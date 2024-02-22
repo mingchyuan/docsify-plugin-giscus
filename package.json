@@ -1,0 +1,20 @@
+{
+  "name": "@mingchyuanko/docsify-plugin-giscus",
+  "version": "1.0.0",
+  "description": "This docsify plugin places giscus as the last child element of article",
+  "main": "giscus.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "homepage": "https://github.com/mingchyuan/docsify-plugin-giscus",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mingchyuan/docsify-plugin-giscus.git"
+  },
+  "files": [
+    "dist"
+  ]
+}
