@@ -10,7 +10,7 @@ This docsify plugin places giscus as the last child element of `<article class="
 
 ```html
 <!-- head -->
-<link rel="stylesheet" href="">
+<link rel="stylesheet" href="https://unpkg.com/@mingchyuanko/docsify-plugin-giscus/dist/giscus.css">
 ```
 
 ### Script
@@ -41,6 +41,18 @@ This docsify plugin places giscus as the last child element of `<article class="
         };
     </script>
 ```
+
+#### theme
+
+- Type: `string`
+
+You can use:
+
+```js
+theme: "https://unpkg.com/@mingchyuanko/docsify-plugin-giscus/dist/noborder_light_custom.css",
+```
+
+It's just a slight modification of the original file, as there was an issue with the border in the comments section being obscured in the original style.
 
 #### loading
 
