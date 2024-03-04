@@ -28,5 +28,14 @@ function plugin(hook, vm) {
         giscus.async = true;
 
         document.getElementById("main").appendChild(giscus);
+
+        setBackLink();
     });
+}
+
+function setBackLink() {
+    const meta = document.createElement("meta");
+    meta.name = "giscus:backlink";
+    meta.content = " "; // TODO: Using the hash routerMode causes an issue.
+    document.getElementsByTagName("head")[0].appendChild(meta);
 }
